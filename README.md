@@ -2,7 +2,7 @@
 References used in my master thesis
 
 
-[1] C.-Y. Yang and M.-H. Yang, "Fast direct super-resolution by simple functions," in Proceedings of the IEEE International Conference on Computer Vision, pp. 561-568, 2013.
+[1] C.-Y. Yang and M.-H. Yang, ["Fast direct super-resolution by simple functions,"](https://pdfs.semanticscholar.org/09b2/42913575cc8b651a54d88b9364ad9f10603c.pdf) in Proceedings of the IEEE International Conference on Computer Vision, pp. 561-568, 2013.
 
 [2] R. Timofte, V. De Smet, and L. Van Gool, "A+: Adjusted anchored neighborhood regression for fast super-resolution," in Asian Conference on Computer Vision, pp. 111-126, Springer, 2014.
 
