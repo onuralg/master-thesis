@@ -1,8 +1,10 @@
 # master-thesis-references
 
-
 *Image Super-Resolution Using Deep Feedforward Neural Networks In Spectral Domain*
 
+**Abstract**
+
+With recent advances in deep learning area, learning machinery and mainstream approaches in computer vision research have changed dramatically from hardcoded features combined with classifiers to end-to-end trained deep convolutional neural networks (CNN) which give the state-of-the-art results in most of the computer vision research areas. Single-image super-resolution is one of these areas which are considerably influenced by deep learning advancements. Most of the current state-of-the-art methods on super-resolution problem learn a nonlinear mapping from low-resolution images to high-resolution images in the spatial domain using consecutive convolutional layers in their network architectures. However, these state-of-the-art results are obtained by training a separate neural network architecture for each different scale factor. We propose a novel singleimage super-resolution system with the limited number of learning parameters in spectral domain in order to eliminate the necessity to train a separate neural network for each scale factor. As a spectral transform function which converts images from the spatial domain to the frequency domain, discrete cosine transform (DCT) which is a variant of discrete Fourier transform (DFT) is used. In addition, in the post-processing step, an artifact reduction module is added for removing ringing artifacts occurred due to spectral transformations. Even if the peak signal-to-noise ratio (PSNR) measurement of our super-resolution system is lower than current state-of-the-art methods, the spectral domain allows us to develop a single model with a single dataset for any scale factor and relatively obtain better structural similarity index (SSIM) results.
 
 ![Image Super Resolution](thesis-image.png)
 
