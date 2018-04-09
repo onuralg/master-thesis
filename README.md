@@ -1,7 +1,6 @@
 # master-thesis-references
-<p align="center">
+
 *Image Super-Resolution Using Deep Feedforward Neural Networks In Spectral Domain*
-</p>
 
 **Abstract**
 
