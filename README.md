@@ -1,15 +1,20 @@
 # master-thesis-references
-
+<p align="center">
 *Image Super-Resolution Using Deep Feedforward Neural Networks In Spectral Domain*
+</p>
 
 **Abstract**
 
+<p align="justify">
 With recent advances in deep learning area, learning machinery and mainstream approaches in computer vision research have changed dramatically from hardcoded features combined with classifiers to end-to-end trained deep convolutional neural networks (CNN) which give the state-of-the-art results in most of the computer vision research areas. Single-image super-resolution is one of these areas which are considerably influenced by deep learning advancements. Most of the current state-of-the-art methods on super-resolution problem learn a nonlinear mapping from low-resolution images to high-resolution images in the spatial domain using consecutive convolutional layers in their network architectures. However, these state-of-the-art results are obtained by training a separate neural network architecture for each different scale factor. We propose a novel singleimage super-resolution system with the limited number of learning parameters in spectral domain in order to eliminate the necessity to train a separate neural network for each scale factor. As a spectral transform function which converts images from the spatial domain to the frequency domain, discrete cosine transform (DCT) which is a variant of discrete Fourier transform (DFT) is used. In addition, in the post-processing step, an artifact reduction module is added for removing ringing artifacts occurred due to spectral transformations. Even if the peak signal-to-noise ratio (PSNR) measurement of our super-resolution system is lower than current state-of-the-art methods, the spectral domain allows us to develop a single model with a single dataset for any scale factor and relatively obtain better structural similarity index (SSIM) results.
+</p>
 
 ![Image Super Resolution](thesis-image.png)
 
+
 **References**
 
+<p align="justify">
 [1] C.-Y. Yang and M.-H. Yang, ["Fast direct super-resolution by simple functions,"](https://pdfs.semanticscholar.org/09b2/42913575cc8b651a54d88b9364ad9f10603c.pdf) in Proceedings of the IEEE International Conference on Computer Vision, pp. 561-568, 2013.
 
 [2] R. Timofte, V. De Smet, and L. Van Gool, ["A+: Adjusted anchored neighborhood regression for fast super-resolution,"](http://www.vision.ee.ethz.ch/publications/papers/proceedings/eth_biwi_01165.pdf) in Asian Conference on Computer Vision, pp. 111-126, Springer, 2014.
@@ -93,3 +98,5 @@ With recent advances in deep learning area, learning machinery and mainstream ap
 [41] A. v. d. Oord, N. Kalchbrenner, and K. Kavukcuoglu, ["Pixel recurrent neural networks,"](https://arxiv.org/pdf/1601.06759.pdf) arXiv preprint arXiv:1601.06759, 2016.
 
 [42] A. v. d. Oord, N. Kalchbrenner, O. Vinyals, L. Espeholt, A. Graves, and K. Kavukcuoglu, ["Conditional image generation with pixelcnn decoders,"](https://arxiv.org/pdf/1606.05328.pdf) arXiv preprint arXiv:1606.05328, 2016.
+
+</p>
