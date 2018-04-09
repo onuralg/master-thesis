@@ -4,6 +4,8 @@
 *Image Super-Resolution Using Deep Feedforward Neural Networks In Spectral Domain*
 
 
+![Image Super Resolution](thesis-image.png)
+
 **References**
 
 [1] C.-Y. Yang and M.-H. Yang, ["Fast direct super-resolution by simple functions,"](https://pdfs.semanticscholar.org/09b2/42913575cc8b651a54d88b9364ad9f10603c.pdf) in Proceedings of the IEEE International Conference on Computer Vision, pp. 561-568, 2013.
